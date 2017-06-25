@@ -31,11 +31,13 @@ html {
 }
 
 .column-bg {
-	opacity: .5;
+	opacity: .3;
+	transition: opacity 1.5s;
 }
 
 .column-bg:hover {
 	opacity: 1;
+	zoom: 1;
 }
 
 .vw {
@@ -64,13 +66,15 @@ html {
 
 .column .start-button {
 	margin-top: 86%;
-	opacity: .8;
 	color: black;
 	margin-left: -12px;
+	opacity: .7;
+	transition: opacity .5s;
 }
 
 .column .start-button:hover {
-	opacity: 1;
+	zoom: 1;
+  	opacity: 1;
 	color: black;
 }
 

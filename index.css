@@ -32,10 +32,12 @@ html {
 
 .column-bg {
 	opacity: .3;
+	transition: opacity 1.5s;
 }
 
 .column-bg:hover {
 	opacity: 1;
+	zoom: 1;
 }
 
 .vw {
@@ -63,14 +65,16 @@ html {
 }
 
 .column .start-button {
-	margin-top: 85%;
-	opacity: .8;
+	margin-top: 86%;
 	color: black;
 	margin-left: -12px;
+	opacity: .7;
+	transition: opacity .5s;
 }
 
 .column .start-button:hover {
-	opacity: 1;
+	zoom: 1;
+  	opacity: 1;
 	color: black;
 }
 

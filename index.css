@@ -40,6 +40,15 @@ html {
 	zoom: 1;
 }
 
+.column-bg:hover .start {
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+.start {
+	opacity: 0;
+}
+
 .vw {
 	border: 1px #28282d solid;
 	background: url(vw.jpg);
